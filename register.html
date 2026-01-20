@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HireNext | Register</title>
+  <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+
+<header class="navbar">
+  <div class="logo"><img src="logo.jpeg"></div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="jobs.html">Jobs</a>
+    <a href="login.html">Login</a>
+  </nav>
+</header>
+
+<section class="auth">
+  <h2>Create Your Account</h2>
+
+  <input type="text" id="name" placeholder="Full Name">
+  <input type="email" id="email" placeholder="Email">
+  <input type="password" id="password" placeholder="Password">
+
+  <select id="role">
+    <option value="">Select Role</option>
+    <option>Job Seeker</option>
+    <option>Employer</option>
+  </select>
+
+  <button onclick="registerUser()">Register</button>
+
+  <p class="auth-link">
+    Already have an account?
+    <a href="login.html">Login here</a>
+  </p>
+</section>
+
+<script src="auth.js"></script>
+</body>
+</html>

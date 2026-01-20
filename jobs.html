@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HireNext | Jobs</title>
+  <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+
+<header class="navbar">
+  <div class="logo">
+    <img src="C:\Users\Aathira Suresh\Desktop\job portal\logo.jpeg.jpeg">
+  </div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="jobs.html">Jobs</a>
+    <a href="login.html">Login</a>
+  </nav>
+</header>
+
+<section class="filters">
+  <select id="role">
+    <option value="">All Roles</option>
+    <option value="Developer">Developer</option>
+    <option value="Designer">Designer</option>
+    <option value="Tester">Tester</option>
+  </select>
+
+  <select id="location">
+    <option value="">All Locations</option>
+    <option value="Bangalore">Bangalore</option>
+    <option value="Remote">Remote</option>
+  </select>
+
+  <button onclick="filterJobs()">Apply Filters</button>
+</section>
+
+<section class="jobs" id="jobList"></section>
+
+<footer>© 2026 HireNext</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
